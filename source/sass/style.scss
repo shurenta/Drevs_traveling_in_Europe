@@ -1,2 +1,80 @@
+/*variables*/
+@import "variables.scss";
+
 /*normalize.scss*/
 @import "node_modules/normalize.scss/normalize.scss";
+
+/*fonts*/
+@import "fonts.scss";
+
+/*global*/
+@import "global.scss";
+
+/*page-header*/
+@import "blocks/page-header";
+
+/*page-main*/
+@import "blocks/page-main.scss";
+
+/*site-menu*/
+@import "blocks/site-menu.scss";
+
+/*traveling*/
+@import "blocks/traveling.scss";
+
+/*сountries*/
+@import "blocks/сountries.scss";
+
+/*list-сountries*/
+@import "blocks/list-сountries.scss";
+
+/*сountry-selection*/
+@import "blocks/сountry-selection.scss";
+
+/*сountry*/
+@import "blocks/сountry.scss";
+
+/*preview-country*/
+@import "blocks/preview-country.scss";
+
+/*reviews-сountry*/
+@import "blocks/reviews-сountry.scss";
+
+/*preview-price*/
+@import "blocks/preview-price.scss";
+
+/*price*/
+@import "blocks/price.scss";
+
+/*list-views-price*/
+@import "blocks/list-views-price.scss";
+
+/*overview-price*/
+@import "blocks/overview-price.scss";
+
+/*views-price*/
+@import "blocks/views-price.scss";
+
+/*item-views-price*/
+@import "blocks/item-views-price.scss";
+
+/*questions*/
+@import "blocks/questions.scss";
+
+/*form*/
+@import "blocks/form.scss";
+
+/*footer*/
+@import "blocks/footer.scss";
+
+/*country-list*/
+@import "blocks/country-list.scss";
+
+/*country-item*/
+@import "blocks/country-item.scss";
+
+/*contacts*/
+@import "blocks/contacts.scss";
+
+/*corporate-travel*/
+@import "blocks/corporate-travel.scss";

@@ -1,0 +1,47 @@
+@media (min-width: $mobile-width-only) {
+  .questions {
+    position: relative;
+    min-width: 288px;
+    margin-left: 15px;
+    margin-right: 16px;
+    color: $dark-black;
+  }
+
+  .questions__image {
+    display: none;
+    width: 768px;
+    min-height: 455px;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .questions {
+    position: relative;
+    min-width: 768px;
+    margin-left: 0;
+    margin-right: 0;
+    color: $dark-black;
+  }
+
+  .questions__image {
+    width: 768px;
+    min-height: 455px;
+    display: block;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .questions {
+    position: relative;
+    min-width: 1168px;
+    margin-left: 387px;
+    margin-right: 363px;
+    color: $dark-black;
+  }
+
+  .questions__image {
+    display: block;
+    width: 844px;
+    min-height: 455px;
+  }
+}

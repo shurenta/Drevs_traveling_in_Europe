@@ -1,0 +1,244 @@
+@media (min-width: $mobile-width-only) {
+  .form {
+    border-radius: 0;
+    width: 288px;
+    background: none;
+    margin-right: 0;
+    position: relative;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+  }
+
+  .form__questions {
+    display: block;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 32px;
+    text-align: center;
+    padding-right: 17px;
+    padding-bottom: 20px;
+    padding-left: 18px;
+  }
+
+  .form__text {
+    width: 288px;
+    margin: 0;
+    text-align: center;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .form__frid {
+    margin: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: $dark-black;
+    padding-bottom: 19px;
+  }
+
+  .form__phone {
+    width: 227px;
+    padding-top: 15px;
+    padding-bottom: 13px;
+    padding-left: 26px;
+    padding-right: 30px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+  }
+
+  .form__email {
+    width: 227px;
+    padding-top: 15px;
+    padding-bottom: 13px;
+    padding-left: 26px;
+    padding-right: 30px;
+    margin-right: 15px;
+  }
+
+  .form__button {
+    font-style: normal;
+    border: none;
+    width: 288px;
+    padding-left: 26px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 19px;
+    background-color: $orange-basik;
+    color: $white-basik;
+    margin-left: 0;
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .form {
+    border-radius: 5px;
+    width: 582px;
+    background: $white-basik;
+    margin-right: 300px;
+    position: absolute;
+    left: 55px;
+    top: 70px;
+    box-shadow: 0 4px 30px $box-shadow;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 26px;
+    padding-bottom: 50px;
+  }
+
+  .form__questions {
+    display: block;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 32px;
+    text-align: center;
+    padding-right: 17px;
+    padding-bottom: 12px;
+    padding-left: 0;
+  }
+
+  .form__text {
+    width: 557px;
+    margin: 0;
+    text-align: center;
+    padding-right: 20px;
+    padding-bottom: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .form__frid {
+    margin: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: $dark-black;
+    padding-bottom: 0;
+  }
+
+  .form__phone {
+    width: 210px;
+    padding-top: 15px;
+    padding-bottom: 13px;
+    padding-left: 26px;
+    padding-right: 30px;
+    margin-right: 15px;
+  }
+
+  .form__email {
+    width: 210px;
+    padding-top: 15px;
+    padding-bottom: 13px;
+    padding-left: 26px;
+    padding-right: 30px;
+    margin-right: 15px;
+  }
+
+  .form__button {
+    font-style: normal;
+    border: none;
+    width: 250px;
+    padding-left: 26px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 19px;
+    background-color: $orange-basik;
+    color: $white-basik;
+    margin-left: 154px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .form {
+    border-radius: 5px;
+    width: 580px;
+    background: $white-basik;
+    margin-right: 300px;
+    position: absolute;
+    left: 514px;
+    top: 70px;
+    box-shadow: 0 4px 30px $box-shadow;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 26px;
+    padding-bottom: 49px;
+  }
+
+  .form__questions {
+    display: block;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 32px;
+    text-align: center;
+    padding-right: 17px;
+    padding-bottom: 15px;
+  }
+
+  .form__text {
+    margin: 0;
+    text-align: center;
+    padding-right: 20px;
+    padding-bottom: 25px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .form__frid {
+    margin: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: $dark-black;
+    padding-bottom: 4px;
+  }
+
+  .form__phone {
+    width: 210px;
+    padding-top: 15px;
+    padding-bottom: 13px;
+    padding-left: 26px;
+    padding-right: 30px;
+    margin-right: 15px;
+  }
+
+  .form__email {
+    width: 210px;
+    padding-top: 15px;
+    padding-bottom: 13px;
+    padding-left: 26px;
+    padding-right: 30px;
+    margin-right: 15px;
+  }
+
+  .form__button {
+    font-style: normal;
+    border: none;
+    width: 176px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 17px;
+    background-color: $orange-basik;
+    color: $white-basik;
+    margin-left: 190px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+  }
+}

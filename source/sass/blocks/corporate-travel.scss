@@ -1,0 +1,74 @@
+@media (min-width: $mobile-width-only) {
+  .corporate-travel__title {
+    margin: 0;
+    width: 295px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    color: $dark-black;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-left: 5px;
+  }
+
+  .corporate-travel__text {
+    width: 295px;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    opacity: 0.5;
+    text-align: center;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .corporate-travel__title {
+    margin: 0;
+    width: 726px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    color: $dark-black;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-left: 0;
+  }
+
+  .corporate-travel__text {
+    width: 726px;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    opacity: 0.5;
+    text-align: center;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .corporate-travel__title {
+    width: 390px;
+    margin: 0;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    color: $dark-black;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-left: 0;
+  }
+
+  .corporate-travel__text {
+    width: 320px;
+    margin: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    opacity: 0.5;
+    padding-left: 49px;
+    text-align: left;
+  }
+}

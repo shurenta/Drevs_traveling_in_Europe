@@ -1,0 +1,12 @@
+@media (min-width: $desktop-width) {
+  .views-price .item-views-price {
+    list-style: none;
+    padding: 0;
+    border: 1px solid $border-gray;
+    border-radius: 6px;
+    width: 310px;
+    padding-top: 10px;
+    padding-left: 29px;
+    padding-right: 30px;
+  }
+}

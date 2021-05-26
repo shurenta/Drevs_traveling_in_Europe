@@ -1,0 +1,118 @@
+@media (min-width: $mobile-width-only) {
+  .сountries {
+    min-width: 288px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 38px;
+  }
+
+  .сountries__title {
+    margin: 0;
+    padding: 0;
+    width: 288px;
+    font-weight: 600;
+    line-height: 36px;
+    font-size: 24px;
+    color: $basic-black;
+    text-align: center;
+    position: relative;
+    margin-bottom: 20px;
+  }
+
+  .сountries__title::after {
+    display: none;
+  }
+
+  .сountries__preview-text {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    color: $basic-black;
+    opacity: 0.7;
+    width: 288px;
+    margin-bottom: 17px;
+    text-align: center;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .сountries {
+    min-width: 606px;
+    margin-left: 81px;
+    margin-right: 81px;
+    margin-bottom: 105px;
+  }
+
+  .сountries__title {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    color: $basic-black;
+    width: 358px;
+    position: relative;
+    margin-left: 158px;
+    margin-bottom: 20px;
+  }
+
+  .сountries__title::after {
+    display: none;
+  }
+
+  .сountries__preview-text {
+    margin: 0;
+    font-size: 16px;
+    line-height: 28px;
+    color: $basic-black;
+    opacity: 0.7;
+    width: 350px;
+    margin-bottom: 39px;
+    text-align: center;
+    margin-left: 135px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .сountries {
+    min-width: 1156px;
+    margin-left: 375px;
+    margin-right: 389px;
+    margin-bottom: 95px;
+  }
+
+
+  .сountries__title {
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 80px;
+    color: $basic-black;
+    width: 358px;
+    position: relative;
+    margin-bottom: 66px;
+    text-align: left;
+    margin-left: 0;
+  }
+
+  .сountries__title::after {
+    content: "";
+    position: absolute;
+    width: 228px;
+    height: 4px;
+    background-color: $orange-basik;
+    left: 0;
+    bottom: -34px;
+    display: block;
+  }
+
+  .сountries__preview-text {
+    margin: 0;
+    font-size: 16px;
+    line-height: 28px;
+    color: $basic-black;
+    opacity: 0.7;
+    width: 350px;
+    margin-bottom: 54px;
+    text-align: left;
+  }
+}

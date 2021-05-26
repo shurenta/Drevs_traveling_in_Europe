@@ -1,0 +1,17 @@
+@media (min-width: $mobile-width-only) {
+  .page-main {
+    margin-bottom: 120px;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .page-main {
+    margin-bottom: 81px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .page-main {
+    margin-bottom: 170px;
+  }
+}

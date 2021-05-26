@@ -1,0 +1,21 @@
+.site-menu {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  width: 240px;
+  margin-top: 14px;
+}
+
+.site-menu__item {
+  padding-right: 41px;
+  padding-bottom: 10px;
+}
+
+.site-menu__link {
+  color: $dark-black;
+}

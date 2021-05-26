@@ -1,0 +1,138 @@
+@media (min-width: $mobile-width-only) {
+  .page-header {
+    min-width: 320px;
+    display: flex;
+    justify-content: space-between;
+    min-height: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 0;
+  }
+
+  .page-header__main-nav {
+    display: none;
+  }
+
+  .page-header__phone {
+    display: none;
+    position: relative;
+  }
+
+  .page-header__icon {
+    position: absolute;
+    left: -15px;
+  }
+
+  .page-header__button {
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: $orange-basik;
+  }
+
+  .nav-button--close::before {
+    content: "";
+    position: absolute;
+    top: 17px;
+    left: 14px;
+    width: 22px;
+    height: 1px;
+    background-color: $light-gray;
+    box-shadow: 0 7px 0 0 $light-gray, 0 13px 0 0 $light-gray;
+  }
+
+  .page-header__logo-image {
+    margin-top: 19px;
+    margin-left: 16px;
+    padding-right: 0;
+    width: 44px;
+    height: 16px;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .page-header {
+    min-width: 768px;
+    display: flex;
+    justify-content: space-between;
+    min-height: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 0;
+  }
+
+  .page-header__main-nav {
+    display: none;
+  }
+
+  .page-header__phone {
+    display: none;
+  }
+
+  .page-header__button {
+    position: relative;
+    display: block;
+    width: 72px;
+    height: 50px;
+    background-color: $orange-basik;
+  }
+
+  .nav-button--close::before {
+    content: "";
+    position: absolute;
+    top: 17px;
+    left: 25px;
+    width: 22px;
+    height: 1px;
+    background-color: $light-gray;
+    box-shadow: 0 7px 0 0 $light-gray, 0 13px 0 0 $light-gray;
+  }
+
+  .page-header__logo-image {
+    margin-top: 19px;
+    margin-left: 21px;
+    padding-right: 0;
+    width: 44px;
+    height: 16px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .page-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 1156px;
+    min-height: 99px;
+    margin-left: 375px;
+    margin-right: 389px;
+  }
+
+  .page-header__button {
+    display: none;
+  }
+
+  .page-header__main-nav {
+    display: block;
+  }
+
+  .page-header__phone {
+    display: block;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: $dark-black;
+    text-decoration-line: underline;
+    padding-left: 30px;
+    margin-top: 7px;
+  }
+
+  .page-header__logo-image {
+    padding-right: 600px;
+    width: 57px;
+    height: 22px;
+    margin: 0;
+  }
+}

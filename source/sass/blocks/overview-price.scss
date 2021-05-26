@@ -1,0 +1,116 @@
+@media (min-width: $mobile-width-only) {
+  .overview-price {
+    list-style: none;
+    padding: 0;
+    padding-bottom: 21px;
+  }
+
+  .overview-price .overview-item__text {
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: $basic-black;
+    width: 218px;
+    padding-left: 49px;
+  }
+
+  .overview-price .overview-item {
+    padding-left: 0;
+    padding-bottom: 8px;
+    font-weight: 400;
+    position: relative;
+  }
+
+  .overview-price .overview-item::before {
+    content: "";
+    display: block;
+    width: 14px;
+    height: 12px;
+    background-image: url("../img/path.png");
+    position: absolute;
+    left: 23px;
+    top: 10px;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .overview-price {
+    list-style: none;
+    padding: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    margin-bottom: 19px;
+  }
+
+  .overview-price .overview-item {
+    padding-left: 0;
+    padding-bottom: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    position: relative;
+  }
+
+  .overview-price .overview-item::before {
+    content: "";
+    display: block;
+    width: 14px;
+    height: 12px;
+    background-image: url("../img/path.png");
+    position: absolute;
+    left: 20px;
+    top: 10px;
+  }
+
+  .overview-price .overview-item__text {
+    width: 218px;
+    text-align: left;
+    margin: 0;
+    margin-top: 0;
+    padding-left: 50px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .overview-price {
+    list-style: none;
+    padding: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    margin-bottom: 28px;
+  }
+
+  .overview-price .overview-item {
+    padding-left: 30px;
+    padding-bottom: 15px;
+    position: relative;
+  }
+
+  .overview-price .overview-item::before {
+    content: "";
+    display: block;
+    width: 14px;
+    height: 12px;
+    background-image: url("../img/path.png");
+    position: absolute;
+    left: 0;
+    top: 10px;
+  }
+
+
+  .overview-price .overview-item:last-child {
+    padding-bottom: 0;
+  }
+
+  .overview-price .overview-item__text {
+    width: 250px;
+    text-align: left;
+    margin: 0;
+    margin-top: 0;
+    padding-left: 0;
+  }
+}

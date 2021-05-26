@@ -1,0 +1,20 @@
+@media (min-width: $tablet-width) {
+  .сountry {
+    min-width: 704px;
+    margin-left: 37px;
+    margin-right: 27px;
+    display: block;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .сountry {
+    min-width: 1156px;
+    margin-left: 375px;
+    margin-right: 389px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 257px;
+  }
+}

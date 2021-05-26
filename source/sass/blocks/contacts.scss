@@ -1,0 +1,246 @@
+@media (min-width: $mobile-width-only) {
+  .contacts {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 45px;
+  }
+
+  .contacts::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 290px;
+    height: 2px;
+    background-color: $border-color;
+    left: 0;
+    top: 136px;
+  }
+
+  .contacts::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 290px;
+    height: 2px;
+    background-color: $border-color;
+    left: 0;
+    top: -30px;
+  }
+
+  .contacts__title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    color: $dark-black;
+    margin: 0;
+    margin-left: 10px;
+    text-align: center;
+    padding-bottom: 28px;
+  }
+
+  .contacts__email {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: $orange-basik;
+    text-decoration: none;
+    text-align: center;
+    padding-left: 60px;
+    padding-bottom: 13px;
+    position: relative;
+  }
+
+  .contacts__tel {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: $orange-basik;
+    text-decoration: underline;
+    padding-left: 85px;
+    position: relative;
+  }
+
+  .contacts__icon-mail {
+    position: absolute;
+    width: 26px;
+    height: 20px;
+    left: 20px;
+    top: -2px;
+  }
+
+  .contacts__icon-tel {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 45px;
+    top: -3px;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .contacts {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 113px;
+  }
+
+  .contacts::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 726px;
+    height: 2px;
+    background-color: $border-color;
+    left: -390px;
+    top: 205px;
+  }
+
+  .contacts::before {
+    content: "";
+    position: absolute;
+    display: none;
+    width: 290px;
+    height: 2px;
+    background-color: $border-color;
+    left: 0;
+    top: 136px;
+  }
+
+  .contacts__title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    color: $dark-black;
+    margin: 0;
+    text-align: center;
+    padding-right: 80px;
+    padding-bottom: 23px;
+    margin-left: 0;
+  }
+
+  .contacts__email {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: $orange-basik;
+    text-decoration: none;
+    text-align: center;
+    padding-left: 70px;
+    padding-bottom: 19px;
+    position: relative;
+  }
+
+  .contacts__tel {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: $orange-basik;
+    text-decoration: underline;
+    padding-left: 90px;
+    position: relative;
+  }
+
+
+  .contacts__icon-mail {
+    position: absolute;
+    width: 26px;
+    height: 20px;
+    left: 50px;
+    top: -2px;
+  }
+
+  .contacts__icon-tel {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 50px;
+    top: -3px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .contacts {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: relative;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  .contacts::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 2px;
+    height: 189px;
+    background-color: $border-color;
+    left: 390px;
+    top: 0;
+  }
+
+  .contacts::before {
+    content: "";
+    position: absolute;
+    display: none;
+    width: 290px;
+    height: 2px;
+    background-color: $border-color;
+    left: 0;
+    top: 136px;
+  }
+
+  .contacts__title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    color: $dark-black;
+    margin: 0;
+    text-align: center;
+    padding-right: 60px;
+    padding-bottom: 23px;
+    margin-left: 0;
+  }
+
+  .contacts__email {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: $orange-basik;
+    text-decoration: underline;
+    text-align: center;
+    padding-left: 88px;
+    padding-bottom: 19px;
+    position: relative;
+  }
+
+  .contacts__tel {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: $orange-basik;
+    text-decoration: underline;
+    padding-left: 130px;
+    position: relative;
+  }
+
+  .contacts__icon-mail {
+    position: absolute;
+    width: 26px;
+    height: 20px;
+    left: 90px;
+    top: -2px;
+  }
+
+  .contacts__icon-tel {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 90px;
+    top: -3px;
+  }
+}
